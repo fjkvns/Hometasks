@@ -1,5 +1,10 @@
 * {
     background: rgb(210, 192, 221);
+    list-style: none;
+}
+
+body{
+    
 }
 
 .heading {
@@ -24,15 +29,22 @@ a {
     border: 2px solid black;
     border-radius: 15px ;
     text-align: center;
-    padding: 50px;
+    padding: 12px;
     text-decoration:none;
     background-color: #ffd685;
     font-weight: bold;
     color: black;
+    width: 100px;
+    height: 50px;
+    vertical-align: middle;
 }
 
 a:hover {
     background-color: #cc8700;
     color: white;
     transition: .4s;
+}
+
+ul li{
+    display: inline-block;
 }
