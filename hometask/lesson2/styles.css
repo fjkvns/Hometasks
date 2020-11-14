@@ -1,0 +1,64 @@
+* {
+    background-color: rgb(43, 43, 43);
+    color: cyan;
+}
+
+.div1 {
+    border: 2px solid white;
+    border-radius: 20px;
+    position: absolute;
+    height: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+.div2 {
+    border: 2px solid white;
+    border-radius: 20px;
+    position: absolute;
+    height: auto;
+    width: 30%;
+    padding: 10px;
+    margin-left: 32%;
+}
+
+.div3 {
+    border: 2px solid white;
+    border-radius: 20px;
+    position: absolute;
+    height: auto;
+    padding: 10px;
+    width: 30%;
+    margin-left: 64%;
+}
+
+.div4 {
+    margin-top: 18%;
+}
+
+li {
+    color: white;
+}
+
+.div5 img {
+    border: 1.5px solid black;
+    width: 400px;
+    height: auto;
+}
+
+.div5 {
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -200px;
+}
+
+.par {
+    display: inline-block;
+    width: 40%;
+}
+
+.div6 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -10%;
+}

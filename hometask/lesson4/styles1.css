@@ -1,0 +1,40 @@
+#table1, #table1 *:not(img) {
+    border: 2px solid rgba(255, 255, 255, .5);
+}
+img {
+    height: 150px;
+    width: 150px;
+}
+
+* {
+    color: blanchedalmond;
+    background-image: url("background.jpeg");
+}
+
+#row1 *:hover {
+    background: rgba(61, 64, 242, .5);
+}
+
+td:hover {
+    transition: background-color .7s;
+}
+
+#row2 *:hover {
+    background: rgba(242, 61, 61, .5) ;
+}
+
+#row3 *:hover {
+    background: rgba(242, 206, 61, .5);
+}
+
+#row4 *:hover {
+    background: rgba(61, 242, 85, .5);
+}
+
+#row5 *:hover {
+    background: rgba(164, 61, 242, .5);
+}
+
+#row6 *:hover {
+    background: rgba(242, 173, 61, .5);
+}
